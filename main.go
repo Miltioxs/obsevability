@@ -10,14 +10,8 @@ import (
 
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"go.opentelemetry.io/otel/attribute"
-// "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
-// "go.opentelemetry.io/otel/propagation"
-// 	"go.opentelemetry.io/otel/sdk/resource"
- 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
-// 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
  	"go.opentelemetry.io/otel/trace"
-// 	"google.golang.org/grpc"
-// 	"google.golang.org/grpc/credentials/insecure"
+
  )
 
 var tracer trace.Tracer
