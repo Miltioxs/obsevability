@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: performance-deployment
+  labels:
+    app: performance-svc
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: performance-svc
+  template:
+    metadata:
+      labels:
+        app: performance-svc
+    spec:
+      containers:
+      - name: performance-svc
+        image: miltioxs/performance:v1.0.1
+        ports:
+        - containerPort: 7007

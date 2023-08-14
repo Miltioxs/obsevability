@@ -1,0 +1,27 @@
+PageSpeed Insights 
+key  
+
+
+
+categories performance score
+
+first-contentful-paint score 
+
+speed-index score
+
+largest-contentful-paint displayValue 
+
+total-blocking-time score 
+
+cumulative-layout-shift score 
+
+
+Deploy OpenTelemetry Colletor
+
+
+
+
+
+
+
+
