@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: performance-svc
-        image: miltioxs/performance:v1.0.1
+        image: miltioxs/performance:v1.0.2
         ports:
         - containerPort: 7007
